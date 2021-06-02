@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ProjetoBatman</string>
+    <string name="button_next">Next</string>
+    <string name="button_iniciar">Iniciar</string>
+    <string name="bem_vindo">Bem Vindo!</string>
+    <string name="descricao">Comece sua jornada clicando em INICIAR, ou selecione uma seção em nosso menu.</string>
+    <string name="sobre">Sobre</string>
+    <string name="bruce_wayne">Bruce Wayne</string>
+    <string name="inicio">Início</string>
+    <string name="viloes">Vilões</string>
+    <string name="bruce_bio">Bilionario industrial e playboy notório. É um dos homens mais inteligentes do mundo. Mora em Gotham City</string>
+</resources>
