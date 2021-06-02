@@ -7,20 +7,21 @@ import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import com.example.projetobatman.databinding.FragmentBruceBinding
+import com.example.projetobatman.databinding.FragmentSymbolBinding
 import com.example.projetobatman.databinding.FragmentTitleBinding
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-class BruceFragment : Fragment() {
+class SymbolFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        val binding = DataBindingUtil.inflate<FragmentBruceBinding>(inflater,
-            R.layout.fragment_bruce,container,false)
+        val binding = DataBindingUtil.inflate<FragmentSymbolBinding>(inflater,
+                R.layout.fragment_symbol,container,false)
 
         binding.nextButton.setOnClickListener { view : View ->
-            view.findNavController().navigate(R.id.action_bruceFragment_to_symbolFragment)
+            view.findNavController().navigate(R.id.action_symbolFragment_to_batmanFragment)
         }
         setHasOptionsMenu(true)
         return binding.root

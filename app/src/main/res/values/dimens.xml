@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="texto_corrido">20dp</dimen>
-    <dimen name="titulo">30dp</dimen>
+    <dimen name="texto_corrido">20sp</dimen>
+    <dimen name="titulo">30sp</dimen>
     <dimen name="vertical_margin">16dp</dimen>
     <dimen name="horizontal_margin">8dp</dimen>
     <dimen name="button_padding">16dp</dimen>

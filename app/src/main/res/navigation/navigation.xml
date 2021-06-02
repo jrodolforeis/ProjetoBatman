@@ -17,7 +17,29 @@
         android:name="com.example.projetobatman.BruceFragment"
         android:label="@string/bruce_wayne">
         <action
-            android:id="@+id/action_bruceFragment_to_titleFragment"
-            app:destination="@id/titleFragment" />
+            android:id="@+id/action_bruceFragment_to_symbolFragment"
+            app:destination="@id/symbolFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/symbolFragment"
+        android:name="com.example.projetobatman.SymbolFragment"
+        android:label="@string/bat_symbol">
+        <action
+            android:id="@+id/action_symbolFragment_to_batmanFragment"
+            app:destination="@id/batmanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/batmanFragment"
+        android:name="com.example.projetobatman.BatmanFragment"
+        android:label="@string/batman_title">
+        <action
+            android:id="@+id/action_batmanFragment_to_titleFragment"
+            app:destination="@id/titleFragment"
+            app:popUpTo="@id/titleFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/sobreFragment"
+        android:name="com.example.projetobatman.SobreFragment"
+        android:label="@string/sobre" />
 </navigation>

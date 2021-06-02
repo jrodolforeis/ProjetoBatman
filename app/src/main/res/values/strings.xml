@@ -1,12 +1,18 @@
 <resources>
     <string name="app_name">ProjetoBatman</string>
-    <string name="button_next">Next</string>
+    <string name="button_next">Seguinte</string>
     <string name="button_iniciar">Iniciar</string>
+    <string name="button_recomeçar">Recomeçar</string>
     <string name="bem_vindo">Bem Vindo!</string>
+    <string name="bat_symbol">O símbolo do morcego</string>
+    <string name="symbol_desc">O morcego é uma criatura que sempre provocou medo em Bruce Wayne. Sendo assim, ele resolveu compartilhar este medo com os criminosos de Gotham City.</string>
     <string name="descricao">Comece sua jornada clicando em INICIAR, ou selecione uma seção em nosso menu.</string>
     <string name="sobre">Sobre</string>
+    <string name="sobre_desc">O aplicativo foi desenvolvido para cumprir os requisitos da disciplina de Programação Web-Mobile da UNICAP, ministrada pelo professor Márcio Bueno. As informações utilizadas correspondem à trilogia do batman dirigida por Christopher Nolan e o papel do justiceiro é interpretado por Christian Bale.</string>
     <string name="bruce_wayne">Bruce Wayne</string>
+    <string name="batman_title">Batman</string>
+    <string name="batman_desc">Super herói que se fantasia de morcego, combatendo o crime e a corrupção na cidade de Gotham. Não possui poderes especiais, mas sua fortuna o permite utilizar diversas tecnologias inovadoras.</string>
     <string name="inicio">Início</string>
     <string name="viloes">Vilões</string>
-    <string name="bruce_bio">Bilionario industrial e playboy notório. É um dos homens mais inteligentes do mundo. Mora em Gotham City</string>
+    <string name="bruce_bio">Bilionario industrial e playboy notório. É um dos homens mais inteligentes do mundo, mora em Gotham City e assume a identidade do justiceiro mascarado para proteger a cidade.</string>
 </resources>

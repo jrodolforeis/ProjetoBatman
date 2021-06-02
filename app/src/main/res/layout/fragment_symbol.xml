@@ -11,15 +11,14 @@
 
         <ImageView
             android:id="@+id/bat_logo"
-            android:layout_width="343dp"
-            android:layout_height="169dp"
-            android:layout_marginTop="136dp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="92dp"
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.544"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/pngfind_com_batman_symbol_png_413451" />
+            app:srcCompat="@drawable/batman_bale" />
 
         <TextView
             android:id="@+id/titulo"
@@ -27,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="48dp"
             android:maxWidth="350dp"
-            android:text="@string/bem_vindo"
+            android:text="@string/bat_symbol"
             android:textAlignment="center"
             android:textSize="@dimen/titulo"
             app:layout_constraintHorizontal_bias="0.498"
@@ -41,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="76dp"
             android:maxWidth="350dp"
-            android:text="@string/descricao"
+            android:text="@string/symbol_desc"
             android:textAlignment="center"
             android:textSize="@dimen/texto_corrido"
             app:layout_constraintHorizontal_bias="0.491"
@@ -50,14 +49,14 @@
             app:layout_constraintTop_toBottomOf="@+id/titulo" />
 
         <Button
-            android:id="@+id/iniciar_button"
+            android:id="@+id/next_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/horizontal_margin"
             android:layout_marginEnd="@dimen/horizontal_margin"
             android:paddingStart="@dimen/button_padding"
             android:paddingEnd="@dimen/button_padding"
-            android:text="@string/button_iniciar"
+            android:text="@string/button_next"
             android:textSize="@dimen/button_text_size"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

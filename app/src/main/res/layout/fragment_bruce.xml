@@ -11,18 +11,17 @@
 
         <ImageView
             android:id="@+id/bat_logo"
-            android:layout_width="343dp"
-            android:layout_height="169dp"
-            android:layout_marginTop="136dp"
+            android:layout_width="191dp"
+            android:layout_height="263dp"
+            android:layout_marginTop="52dp"
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.544"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/pngfind_com_batman_symbol_png_413451" />
+            app:srcCompat="@drawable/bruce_wayne_300x420" />
 
         <TextView
-            android:id="@+id/bem_vindo"
+            android:id="@+id/titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="48dp"
@@ -39,7 +38,7 @@
             android:id="@+id/descricao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="76dp"
+            android:layout_marginTop="44dp"
             android:maxWidth="350dp"
             android:text="@string/bruce_bio"
             android:textAlignment="center"
@@ -47,7 +46,7 @@
             app:layout_constraintHorizontal_bias="0.491"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bem_vindo" />
+            app:layout_constraintTop_toBottomOf="@+id/titulo" />
 
         <Button
             android:id="@+id/next_button"
