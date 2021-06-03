@@ -25,6 +25,7 @@ class TitleFragment : Fragment() {
         binding.iniciarButton.setOnClickListener { view : View ->
             view.findNavController().navigate(R.id.action_titleFragment_to_bruceFragment)
         }
+
         setHasOptionsMenu(true)
         return binding.root
     }

@@ -42,4 +42,39 @@
         android:id="@+id/sobreFragment"
         android:name="com.example.projetobatman.SobreFragment"
         android:label="@string/sobre" />
+    <fragment
+        android:id="@+id/viloesFragment"
+        android:name="com.example.projetobatman.ViloesFragment"
+        android:label="@string/viloes">
+        <action
+            android:id="@+id/action_viloesFragment_to_jokerFragment"
+            app:destination="@id/jokerFragment"
+            app:popUpTo="@id/viloesFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_viloesFragment_to_harveyFragment"
+            app:destination="@id/harveyFragment" />
+        <action
+            android:id="@+id/action_viloesFragment_to_rasFragment"
+            app:destination="@id/rasFragment" />
+        <action
+            android:id="@+id/action_viloesFragment_to_baneFragment"
+            app:destination="@id/baneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/jokerFragment"
+        android:name="com.example.projetobatman.JokerFragment"
+        android:label="@string/joker" />
+    <fragment
+        android:id="@+id/baneFragment"
+        android:name="com.example.projetobatman.BaneFragment"
+        android:label="@string/bane" />
+    <fragment
+        android:id="@+id/harveyFragment"
+        android:name="com.example.projetobatman.HarveyFragment"
+        android:label="@string/two_face" />
+    <fragment
+        android:id="@+id/rasFragment"
+        android:name="com.example.projetobatman.RasFragment"
+        android:label="@string/ras_al_ghul" />
 </navigation>

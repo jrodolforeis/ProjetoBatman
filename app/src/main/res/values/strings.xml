@@ -15,4 +15,14 @@
     <string name="inicio">Início</string>
     <string name="viloes">Vilões</string>
     <string name="bruce_bio">Bilionario industrial e playboy notório. É um dos homens mais inteligentes do mundo, mora em Gotham City e assume a identidade do justiceiro mascarado para proteger a cidade.</string>
+    <string name="viloes_desc">Toque em um vilão para maiores detalhes.</string>
+    <string name="harvey">Harvey Dent</string>
+    <string name="two_face">Duas Caras</string>
+    <string name="harvey_desc">O cavaleiro branco de Gotham que liderava a promotoria caçando todo tipo de criminoso acabou vivendo tempo suficiente para ser corrompido.</string>
+    <string name="joker">Coringa</string>
+    <string name="joker_desc">O coringa é o tipo do personagem imprevisível que faz de tudo para gerar o caos. Ele quer apenas ver o mundo pegar fogo.</string>
+    <string name="ras_al_ghul">Ra\'s Al Ghul</string>
+    <string name="ras_desc">Líder da liga das sombras. Treinou Bruce Wayne quando ele estava perdido no mundo e na vida, deu-lhe um novo propósito. No entanto, seus métodos crueis são incompatíveis com o herói.</string>
+    <string name="bane">Bane</string>
+    <string name="bane_desc">Nascido na prisão de Pietra Dura, viveu uma vida difícil, cheia de crimes, se tornando o musculoso vilão que atormenta Gotham.</string>
 </resources>

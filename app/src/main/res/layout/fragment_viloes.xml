@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigation.TitleFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/titleConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/bat_logo"
+            android:layout_width="226dp"
+            android:layout_height="111dp"
+            android:layout_marginTop="60dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/villain_icon_15" />
+
+        <TextView
+            android:id="@+id/descricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:maxWidth="350dp"
+            android:text="@string/viloes_desc"
+            android:textAlignment="center"
+            android:textSize="@dimen/texto_corrido"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bat_logo" />
+
+        <ImageButton
+            android:id="@+id/harvey_button"
+            android:layout_width="115dp"
+            android:layout_height="149dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="60dp"
+            android:background="@color/design_default_color_background"
+            android:scaleType="fitCenter"
+            android:src="@drawable/two_face"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/descricao"
+            android:contentDescription="@string/harvey" />
+
+        <ImageButton
+            android:id="@+id/bane_button"
+            android:layout_width="115dp"
+            android:layout_height="149dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="60dp"
+            android:background="@color/design_default_color_background"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bane_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/harvey_button"
+            app:layout_constraintVertical_bias="0.211"
+            android:contentDescription="@string/bane"/>
+
+        <ImageButton
+            android:id="@+id/ras_button"
+            android:layout_width="115dp"
+            android:layout_height="149dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/design_default_color_background"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ras_al_ghul"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/joker_button"
+            app:layout_constraintVertical_bias="0.211"
+            android:contentDescription="@string/ras_al_ghul"/>
+
+        <ImageButton
+            android:id="@+id/joker_button"
+            android:layout_width="115dp"
+            android:layout_height="149dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="92dp"
+            android:background="@color/design_default_color_background"
+            android:scaleType="fitCenter"
+            android:src="@drawable/joker_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/descricao"
+            android:contentDescription="@string/joker" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

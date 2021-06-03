@@ -11,12 +11,12 @@ import com.example.projetobatman.databinding.*
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-class SobreFragment : Fragment() {
+class JokerFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        val binding = DataBindingUtil.inflate<FragmentSobreBinding>(inflater,
-                R.layout.fragment_sobre,container,false)
+        val binding = DataBindingUtil.inflate<FragmentJokerBinding>(inflater,
+                R.layout.fragment_joker,container,false)
 
         setHasOptionsMenu(true)
         return binding.root
