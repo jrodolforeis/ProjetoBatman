@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigation.TitleFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/titleConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/bat_logo"
+            android:layout_width="226dp"
+            android:layout_height="111dp"
+            android:layout_marginTop="60dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_movie" />
+
+        <TextView
+            android:id="@+id/descricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:maxWidth="350dp"
+            android:text="@string/filmes_desc"
+            android:textAlignment="center"
+            android:textSize="@dimen/texto_corrido"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bat_logo" />
+
+        <ImageButton
+            android:id="@+id/begins_button"
+            android:layout_width="115dp"
+            android:layout_height="149dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="136dp"
+            android:background="@color/design_default_color_background"
+            android:contentDescription="@string/begins"
+            android:scaleType="fitCenter"
+            android:src="@drawable/begins"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/descricao" />
+
+        <ImageButton
+            android:id="@+id/rises_button"
+            android:layout_width="115dp"
+            android:layout_height="149dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="40dp"
+            android:background="@color/design_default_color_background"
+            android:contentDescription="@string/rises"
+            android:scaleType="fitCenter"
+            android:src="@drawable/rises"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/begins_button"
+            app:layout_constraintVertical_bias="0.22" />
+
+        <ImageButton
+            android:id="@+id/knight_button"
+            android:layout_width="115dp"
+            android:layout_height="149dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="92dp"
+            android:background="@color/design_default_color_background"
+            android:contentDescription="@string/knight"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dark_knight"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/begins_button"
+            app:layout_constraintVertical_bias="0.222" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -77,4 +77,8 @@
         android:id="@+id/rasFragment"
         android:name="com.example.projetobatman.RasFragment"
         android:label="@string/ras_al_ghul" />
+    <fragment
+        android:id="@+id/filmesFragment"
+        android:name="com.example.projetobatman.FilmesFragment"
+        android:label="@string/filmes" />
 </navigation>

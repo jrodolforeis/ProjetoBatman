@@ -12,8 +12,8 @@
             android:title="@string/viloes"
             android:icon="@drawable/villain_icon_15"/>
         <item
-            android:id="@+id/sobreFragment"
-            android:title="@string/sobre"
-            android:icon="@drawable/ic_question_mark"/>
+            android:id="@+id/filmesFragment"
+            android:title="@string/filmes"
+            android:icon="@drawable/ic_movie"/>
     </group>
 </menu>

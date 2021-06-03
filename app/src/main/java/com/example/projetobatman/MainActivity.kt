@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         val navController = this.findNavController(R.id.myNavHostFragment)
 
-        val topLevelDestinations = setOf(R.id.viloesFragment, R.id.titleFragment)
+        val topLevelDestinations = setOf(R.id.viloesFragment, R.id.titleFragment, R.id.filmesFragment)
         appBarConfiguration = AppBarConfiguration.Builder(topLevelDestinations)
                 .setOpenableLayout(drawerLayout)
                 .build()

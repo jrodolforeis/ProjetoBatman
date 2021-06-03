@@ -25,4 +25,12 @@
     <string name="ras_desc">Líder da liga das sombras. Treinou Bruce Wayne quando ele estava perdido no mundo e na vida, deu-lhe um novo propósito. No entanto, seus métodos crueis são incompatíveis com o herói.</string>
     <string name="bane">Bane</string>
     <string name="bane_desc">Nascido na prisão de Pietra Dura, viveu uma vida difícil, cheia de crimes, se tornando o musculoso vilão que atormenta Gotham.</string>
+    <string name="filmes">Filmes</string>
+    <string name="filmes_desc">Escolha um dos filmes para obter a sinopse.</string>
+    <string name="begins">Batman Begins</string>
+    <string name="begins_desc">Falta Sinopse</string>
+    <string name="knight">Batman, The Dark Knight</string>
+    <string name="knight_desc">Falta Sinopse</string>
+    <string name="rises">Batman, The Dark Knight Rises</string>
+    <string name="rises_desc">Falta Sinopse</string>
 </resources>
