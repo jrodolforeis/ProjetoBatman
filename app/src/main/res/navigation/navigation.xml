@@ -80,5 +80,27 @@
     <fragment
         android:id="@+id/filmesFragment"
         android:name="com.example.projetobatman.FilmesFragment"
-        android:label="@string/filmes" />
+        android:label="@string/filmes" >
+        <action
+            android:id="@+id/action_filmesFragment_to_beginsFragment"
+            app:destination="@id/beginsFragment" />
+        <action
+            android:id="@+id/action_filmesFragment_to_knightFragment"
+            app:destination="@id/knightFragment" />
+        <action
+            android:id="@+id/action_filmesFragment_to_risesFragment"
+            app:destination="@id/risesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/beginsFragment"
+        android:name="com.example.projetobatman.BeginsFragment"
+        android:label="@string/begins" />
+    <fragment
+        android:id="@+id/knightFragment"
+        android:name="com.example.projetobatman.KnightFragment"
+        android:label="@string/knight" />
+    <fragment
+        android:id="@+id/risesFragment"
+        android:name="com.example.projetobatman.RisesFragment"
+        android:label="@string/rises" />
 </navigation>

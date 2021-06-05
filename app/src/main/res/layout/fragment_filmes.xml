@@ -44,7 +44,7 @@
             android:background="@color/design_default_color_background"
             android:contentDescription="@string/begins"
             android:scaleType="fitCenter"
-            android:src="@drawable/begins"
+            android:src="@drawable/begins2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/descricao" />
 
@@ -57,7 +57,7 @@
             android:background="@color/design_default_color_background"
             android:contentDescription="@string/rises"
             android:scaleType="fitCenter"
-            android:src="@drawable/rises"
+            android:src="@drawable/rises2"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/begins_button"
@@ -73,7 +73,7 @@
             android:background="@color/design_default_color_background"
             android:contentDescription="@string/knight"
             android:scaleType="fitCenter"
-            android:src="@drawable/dark_knight"
+            android:src="@drawable/dark_knight_joker"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/begins_button"

@@ -28,9 +28,11 @@
     <string name="filmes">Filmes</string>
     <string name="filmes_desc">Escolha um dos filmes para obter a sinopse.</string>
     <string name="begins">Batman Begins</string>
-    <string name="begins_desc">Falta Sinopse</string>
-    <string name="knight">Batman, The Dark Knight</string>
-    <string name="knight_desc">Falta Sinopse</string>
-    <string name="rises">Batman, The Dark Knight Rises</string>
-    <string name="rises_desc">Falta Sinopse</string>
+    <string name="begins_desc">Marcado pelo assassinato de seus pais quando ainda era criança, o milionário Bruce Wayne (Christian Bale) decide viajar pelo mundo em busca de encontrar meios que lhe permitam combater a injustiça e provocar medo em seus adversários. Após retornar a Gotham City, sua cidade-natal, ele idealiza seu alter-ego: Batman, um justiceiro mascarado que usa força, inteligência e um arsenal tecnológico para combater o crime.</string>
+    <string name="knight">The Dark Knight</string>
+    <string name="knight_desc">Após dois anos desde o surgimento do Batman (Christian Bale), os criminosos de Gotham City têm muito o que temer. Com a ajuda do tenente James Gordon (Gary Oldman) e do promotor público Harvey Dent (Aaron Eckhart), Batman luta contra o crime organizado. Acuados com o combate, os chefes do crime aceitam a proposta feita pelo Coringa (Heath Ledger) e o contratam para combater o Homem-Morcego.</string>
+    <string name="rises">The Dark Knight Rises</string>
+    <string name="rises_desc">Oito anos após a morte de Harvey Dent, a cidade de Gotham City está pacificada e não precisa mais do Batman. A situação faz com que Bruce Wayne (Christian Bale) se torne um homem recluso em sua mansão, convivendo apenas com o mordomo Alfred (Michael Caine). Um dia, em meio a uma festa realizada na Mansão Wayne, uma das garçonetes contratadas rouba um colar de grande valor sentimental. Trata-se de Selina Kyle (Anne Hathaway), uma esperta e habilidosa ladra que, apesar de flagrada por Bruce, consegue fugir. Curioso em descobrir quem é ela, Bruce retorna à caverna para usar os computadores que tanto lhe serviram quando vestia o manto do Homem-Morcego. Aos poucos começa a perceber indícios do surgimento de uma nova ameaça a Gotham City, personificada no brutamontes Bane (Tom Hardy). É o suficiente para que volte a ser o Batman, apesar dos problemas físicos decorrentes de suas atividades como super-herói ao longo dos anos.</string>
+    <string name="drawer_open">Menu aberto</string>
+    <string name="drawer_closed">Menu fechado</string>
 </resources>

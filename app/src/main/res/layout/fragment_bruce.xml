@@ -11,9 +11,9 @@
 
         <ImageView
             android:id="@+id/bat_logo"
-            android:layout_width="191dp"
-            android:layout_height="263dp"
-            android:layout_marginTop="52dp"
+            android:layout_width="@dimen/max_width"
+            android:layout_height="@dimen/image_banner_height"
+            android:layout_marginTop="@dimen/margin_top_bot"
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -21,32 +21,20 @@
             app:srcCompat="@drawable/bruce_wayne_300x420" />
 
         <TextView
-            android:id="@+id/titulo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="48dp"
-            android:maxWidth="350dp"
-            android:text="@string/bruce_wayne"
-            android:textAlignment="center"
-            android:textSize="@dimen/titulo"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bat_logo" />
-
-        <TextView
             android:id="@+id/descricao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="44dp"
-            android:maxWidth="350dp"
+            android:layout_marginTop="@dimen/margin_top_bot"
+            android:maxWidth="@dimen/max_width"
             android:text="@string/bruce_bio"
             android:textAlignment="center"
             android:textSize="@dimen/texto_corrido"
-            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintBottom_toTopOf="@+id/next_button"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/titulo" />
+            app:layout_constraintTop_toBottomOf="@+id/bat_logo"
+            app:layout_constraintVertical_bias="0.0" />
 
         <Button
             android:id="@+id/next_button"
@@ -54,14 +42,15 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/horizontal_margin"
             android:layout_marginEnd="@dimen/horizontal_margin"
+            android:layout_marginBottom="@dimen/margin_top_bot"
             android:paddingStart="@dimen/button_padding"
             android:paddingEnd="@dimen/button_padding"
             android:text="@string/button_next"
             android:textSize="@dimen/button_text_size"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/descricao" />
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

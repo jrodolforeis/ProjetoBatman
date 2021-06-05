@@ -11,9 +11,9 @@
 
         <ImageView
             android:id="@+id/bat_logo"
-            android:layout_width="343dp"
-            android:layout_height="169dp"
-            android:layout_marginTop="136dp"
+            android:layout_width="@dimen/max_width"
+            android:layout_height="@dimen/image_banner_height"
+            android:layout_marginTop="@dimen/margin_top_bot"
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.544"
@@ -22,32 +22,18 @@
             app:srcCompat="@drawable/ras_al_ghul2" />
 
         <TextView
-            android:id="@+id/titulo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="48dp"
-            android:maxWidth="350dp"
-            android:text="@string/ras_al_ghul"
-            android:textAlignment="center"
-            android:textSize="@dimen/titulo"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bat_logo" />
-
-        <TextView
             android:id="@+id/descricao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="36dp"
-            android:maxWidth="350dp"
+            android:layout_marginTop="@dimen/margin_top_bot"
+            android:maxWidth="@dimen/max_width"
             android:text="@string/ras_desc"
             android:textAlignment="center"
             android:textSize="@dimen/texto_corrido"
-            app:layout_constraintHorizontal_bias="0.465"
+            app:layout_constraintHorizontal_bias="0.491"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/titulo" />
+            app:layout_constraintTop_toBottomOf="@+id/bat_logo" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
