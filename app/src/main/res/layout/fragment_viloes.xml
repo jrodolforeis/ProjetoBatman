@@ -15,10 +15,12 @@
             android:layout_height="@dimen/image_mainBanner_height"
             android:layout_marginTop="@dimen/margin_vertical_menu"
             android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="?attr/villain_symbol" />
 
         <TextView
@@ -26,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_vertical_menu"
-            android:maxWidth="@dimen/max_width"
+            android:layout_marginHorizontal="@dimen/horizontal_margin"
             android:text="@string/viloes_desc"
             android:textAlignment="center"
             android:textSize="@dimen/texto_corrido"
@@ -35,62 +37,72 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bat_logo" />
 
-        <ImageButton
-            android:id="@+id/harvey_button"
-            android:layout_width="@dimen/img_button_width"
-            android:layout_height="@dimen/img_button_height"
+        <ScrollView
+            android:id="@+id/ScrollView01"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
             android:layout_marginTop="@dimen/margin_vertical_menu"
-            android:layout_marginEnd="@dimen/margin_top_bot"
-            android:background="@color/yellow"
-            android:scaleType="fitXY"
-            android:src="@drawable/two_face"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/descricao"
-            android:contentDescription="@string/harvey" />
-
-        <ImageButton
-            android:id="@+id/bane_button"
-            android:layout_width="@dimen/img_button_width"
-            android:layout_height="@dimen/img_button_height"
-            android:layout_marginTop="@dimen/margin_vertical_menu"
-            android:layout_marginEnd="@dimen/margin_top_bot"
-            android:background="@color/white"
-            android:scaleType="fitCenter"
-            android:src="@drawable/bane_icon"
+            android:layout_marginBottom="@dimen/margin_vertical_menu"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/harvey_button"
-            app:layout_constraintVertical_bias="0.211"
-            android:contentDescription="@string/bane"/>
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/descricao">
 
-        <ImageButton
-            android:id="@+id/ras_button"
-            android:layout_width="@dimen/img_button_width"
-            android:layout_height="@dimen/img_button_height"
-            android:layout_marginStart="@dimen/margin_top_bot"
-            android:layout_marginTop="@dimen/margin_vertical_menu"
-            android:background="@color/yellow"
-            android:scaleType="fitXY"
-            android:src="@drawable/ras_al_ghul"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/joker_button"
-            app:layout_constraintVertical_bias="0.211"
-            android:contentDescription="@string/ras_al_ghul"/>
+            <FrameLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:gravity="start">
 
-        <ImageButton
-            android:id="@+id/joker_button"
-            android:layout_width="@dimen/img_button_width"
-            android:layout_height="@dimen/img_button_height"
-            android:layout_marginStart="@dimen/margin_top_bot"
-            android:layout_marginTop="@dimen/margin_vertical_menu"
-            android:background="@color/white"
-            android:scaleType="fitCenter"
-            android:src="@drawable/joker_icon"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/descricao"
-            android:contentDescription="@string/joker" />
+                <ImageButton
+                    android:id="@+id/joker_button"
+                    android:layout_width="@dimen/img_button_width"
+                    android:layout_height="@dimen/img_button_height"
+                    android:layout_marginStart="@dimen/margin_top_bot"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/joker_icon"
+                    android:contentDescription="@string/joker" />
 
+                <ImageButton
+                    android:id="@+id/harvey_button"
+                    android:layout_width="@dimen/img_button_width"
+                    android:layout_height="@dimen/img_button_height"
+                    android:layout_marginEnd="@dimen/margin_top_bot"
+                    android:layout_gravity="end"
+                    android:background="@color/yellow"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/two_face"
+                    android:contentDescription="@string/harvey" />
+
+                <ImageButton
+                    android:id="@+id/ras_button"
+                    android:layout_width="@dimen/img_button_width"
+                    android:layout_height="@dimen/img_button_height"
+                    android:layout_marginStart="@dimen/margin_top_bot"
+                    android:layout_marginTop="@dimen/img_button_vertical_pos"
+                    android:background="@color/yellow"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ras_al_ghul"
+                    android:contentDescription="@string/ras_al_ghul"/>
+
+                <ImageButton
+                    android:id="@+id/bane_button"
+                    android:layout_width="@dimen/img_button_width"
+                    android:layout_height="@dimen/img_button_height"
+                    android:layout_marginTop="@dimen/img_button_vertical_pos"
+                    android:layout_marginEnd="@dimen/margin_top_bot"
+                    android:layout_gravity="end"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/bane_icon"
+                    android:contentDescription="@string/bane"/>
+
+            </FrameLayout>
+        </ScrollView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

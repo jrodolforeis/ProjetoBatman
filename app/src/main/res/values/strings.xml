@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ProjetoBatman</string>
+    <string name="app_name">Batman</string>
     <string name="button_next">Seguinte</string>
     <string name="button_iniciar">Iniciar</string>
     <string name="button_recomeçar">Recomeçar</string>
@@ -11,20 +11,20 @@
     <string name="sobre_desc">O aplicativo foi desenvolvido para cumprir os requisitos da disciplina de Programação Web-Mobile da UNICAP, ministrada pelo professor Márcio Bueno. As informações utilizadas correspondem à trilogia do batman dirigida por Christopher Nolan e o papel do justiceiro é interpretado por Christian Bale.</string>
     <string name="bruce_wayne">Bruce Wayne</string>
     <string name="batman_title">Batman</string>
-    <string name="batman_desc">Super herói que se fantasia de morcego, combatendo o crime e a corrupção na cidade de Gotham. Não possui poderes especiais, mas sua fortuna o permite utilizar diversas tecnologias inovadoras.</string>
+    <string name="batman_desc">Sem possuir poderes especiais, utiliza sua fortuna para criar tecnologias inovadoras e estar sempre um passo à frente dos intitulados vilões e corruptos, afinal de contas, o Batman sempre tem um plano.</string>
     <string name="inicio">Início</string>
     <string name="viloes">Vilões</string>
     <string name="bruce_bio">Bilionario industrial e playboy notório. É um dos homens mais inteligentes do mundo, mora em Gotham City e assume a identidade do justiceiro mascarado para proteger a cidade.</string>
     <string name="viloes_desc">Escolha um vilão.</string>
     <string name="harvey">Harvey Dent</string>
     <string name="two_face">Duas Caras</string>
-    <string name="harvey_desc">O cavaleiro branco de Gotham que liderava a promotoria caçando todo tipo de criminoso acabou vivendo tempo suficiente para ser corrompido.</string>
+    <string name="harvey_desc">Harvey Dent, o cavaleiro branco de Gotham, que liderava a promotoria caçando todo tipo de criminoso, não morreu como herói e acabou vivendo tempo suficiente para se tornar um vilão.</string>
     <string name="joker">Coringa</string>
-    <string name="joker_desc">O coringa é o tipo do personagem imprevisível que faz de tudo para gerar o caos. Ele quer apenas ver o mundo pegar fogo.</string>
+    <string name="joker_desc">Um gênio do crime. Psicopata com um humor sádico e doentio. O coringa é o tipo do personagem imprevisível que faz de tudo para gerar o caos. Ele quer apenas ver o mundo pegar fogo.</string>
     <string name="ras_al_ghul">Ra\'s Al Ghul</string>
     <string name="ras_desc">Líder da liga das sombras. Treinou Bruce Wayne quando ele estava perdido no mundo e na vida, deu-lhe um novo propósito. No entanto, seus métodos crueis são incompatíveis com o herói.</string>
     <string name="bane">Bane</string>
-    <string name="bane_desc">Nascido na prisão de Pietra Dura, viveu uma vida difícil, cheia de crimes, se tornando o musculoso vilão que atormenta Gotham.</string>
+    <string name="bane_desc">Conhecido por sua força bruta e inteligência excepcional, nasceu na prisão de Pietra Dura e viveu uma vida difícil, cheia de crimes, se tornando o musculoso vilão que atormenta Gotham. Também é referido como o único vilão que \"quebrou o morcego\".</string>
     <string name="filmes">Filmes</string>
     <string name="filmes_desc">Escolha um filme para obter a sinopse.</string>
     <string name="begins">Batman Begins</string>
