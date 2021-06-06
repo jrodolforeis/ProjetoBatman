@@ -11,74 +11,74 @@
 
         <ImageView
             android:id="@+id/bat_logo"
-            android:layout_width="226dp"
-            android:layout_height="111dp"
-            android:layout_marginTop="60dp"
+            android:layout_width="@dimen/max_width"
+            android:layout_height="@dimen/image_mainBanner_height"
+            android:layout_marginTop="@dimen/margin_vertical_menu"
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_movie" />
+            app:srcCompat="?attr/movie_symbol" />
 
         <TextView
-            android:id="@+id/descricao"
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="28dp"
-            android:maxWidth="350dp"
+            android:layout_marginTop="@dimen/margin_vertical_menu"
+            android:maxWidth="@dimen/max_width"
             android:text="@string/filmes_desc"
             android:textAlignment="center"
             android:textSize="@dimen/texto_corrido"
-            app:layout_constraintHorizontal_bias="0.491"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bat_logo" />
 
         <ImageButton
             android:id="@+id/begins_button"
-            android:layout_width="115dp"
-            android:layout_height="149dp"
-            android:layout_marginTop="92dp"
-            android:layout_marginEnd="136dp"
-            android:background="@color/design_default_color_background"
+            android:layout_width="@dimen/img_button_width"
+            android:layout_height="@dimen/img_button_height"
+            android:layout_marginTop="@dimen/margin_vertical_menu"
+            android:background="@color/yellow"
             android:contentDescription="@string/begins"
-            android:scaleType="fitCenter"
+            android:scaleType="fitXY"
             android:src="@drawable/begins2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/descricao" />
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <ImageButton
             android:id="@+id/rises_button"
-            android:layout_width="115dp"
-            android:layout_height="149dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="40dp"
-            android:background="@color/design_default_color_background"
+            android:layout_width="@dimen/img_button_width"
+            android:layout_height="@dimen/img_button_height"
+            android:layout_marginTop="@dimen/margin_vertical_menu"
+            android:layout_marginEnd="@dimen/margin_top_bot"
+            android:layout_marginBottom="@dimen/margin_top_bot"
+            android:background="@color/yellow"
             android:contentDescription="@string/rises"
-            android:scaleType="fitCenter"
+            android:scaleType="fitXY"
             android:src="@drawable/rises2"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/begins_button"
-            app:layout_constraintVertical_bias="0.22" />
+            app:layout_constraintVertical_bias="0.0" />
 
         <ImageButton
             android:id="@+id/knight_button"
-            android:layout_width="115dp"
-            android:layout_height="149dp"
-            android:layout_marginStart="44dp"
-            android:layout_marginTop="50dp"
-            android:layout_marginBottom="92dp"
-            android:background="@color/design_default_color_background"
+            android:layout_width="@dimen/img_button_width"
+            android:layout_height="@dimen/img_button_height"
+            android:layout_marginStart="@dimen/margin_top_bot"
+            android:layout_marginTop="@dimen/margin_vertical_menu"
+            android:layout_marginBottom="@dimen/margin_top_bot"
+            android:background="@color/yellow"
             android:contentDescription="@string/knight"
-            android:scaleType="fitCenter"
+            android:scaleType="fitXY"
             android:src="@drawable/dark_knight_joker"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/begins_button"
-            app:layout_constraintVertical_bias="0.222" />
-
+            app:layout_constraintVertical_bias="0.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
