@@ -16,7 +16,12 @@ import com.example.projetobatman.databinding.FragmentViloesBinding
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
+/**
+ * Classe responsável pelo comportamento do fragment_viloes
+ * Note a existência de comportamentos únicos para cada botão, gerados pelo navigation.
+ */
 class ViloesFragment : Fragment() {
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         val binding = DataBindingUtil.inflate<FragmentViloesBinding>(inflater,
@@ -39,7 +44,6 @@ class ViloesFragment : Fragment() {
         return binding.root
     }
 
-
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
         inflater.inflate(R.menu.options_menu,menu)
@@ -49,5 +53,4 @@ class ViloesFragment : Fragment() {
         return NavigationUI.onNavDestinationSelected(item,requireView().findNavController())
                 ||super.onOptionsItemSelected(item)
     }
-
 }

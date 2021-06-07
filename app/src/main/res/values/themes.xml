@@ -1,10 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.ProjetoBatman" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color.
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/white</item>-->
+        <!-- Primary brand color.-->
         <item name="colorPrimary">@color/black</item>
         <item name="colorPrimaryVariant">@color/black</item>
         <item name="colorOnPrimary">@color/white</item>
@@ -14,9 +11,7 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color.-->
         <item name="android:statusBarColor" tools:targetApi="l">@color/yellow</item>
-        <!-- Customize your theme here.
-        <item name="android:background">@color/yellow</item>
-        <item name="android:windowBackground">@color/yellow</item>-->
+        <!-- Customize your theme here.-->
         <item name="bat_symbol">@drawable/pngfind_com_batman_symbol_png_413451</item>
         <item name="android:colorBackground">@color/yellow</item>
         <item name="question_symbol">@drawable/ic_question_mark</item>

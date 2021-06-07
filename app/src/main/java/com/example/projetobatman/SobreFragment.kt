@@ -11,6 +11,9 @@ import com.example.projetobatman.databinding.*
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
+/**
+ * Classe responsável pelo comportamento do fragment_sobre
+ */
 class SobreFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
@@ -21,7 +24,6 @@ class SobreFragment : Fragment() {
         setHasOptionsMenu(true)
         return binding.root
     }
-
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)

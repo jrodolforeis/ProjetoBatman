@@ -12,8 +12,7 @@ private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
 /**
- * A simple [Fragment] subclass.
- *
+ * Classe responsável pelo comportamento do fragment_title
  */
 class TitleFragment : Fragment() {
 
@@ -29,7 +28,6 @@ class TitleFragment : Fragment() {
         setHasOptionsMenu(true)
         return binding.root
     }
-
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)

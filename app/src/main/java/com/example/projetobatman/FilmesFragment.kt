@@ -13,7 +13,12 @@ import com.example.projetobatman.databinding.*
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
+/**
+ * Classe responsável pelo comportamento do fragment_filmes
+ * Note que cada botão possui um comportamento único, sendo explicitado na função onCreateView (ações geradas pelo navigation)
+ */
 class FilmesFragment : Fragment() {
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         val binding = DataBindingUtil.inflate<FragmentFilmesBinding>(inflater,
@@ -32,7 +37,6 @@ class FilmesFragment : Fragment() {
         setHasOptionsMenu(true)
         return binding.root
     }
-
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
